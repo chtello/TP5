@@ -1,0 +1,43 @@
+<!-- habitos.html - Registro de Hábitos -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Salud App - Hábitos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1 class="logo">Tu Salud App</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="habitos.html">Hábitos</a></li>
+          <li><a href="estadisticas.html">Estadísticas</a></li>
+          <li><a href="#">Perfil</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <h2>Registro de Hábitos</h2>
+    <form>
+      <label for="habito">Hábito:</label>
+      <input type="text" id="habito" name="habito" placeholder="Ej: Tomar agua">
+
+      <label for="frecuencia">Frecuencia:</label>
+      <select id="frecuencia" name="frecuencia">
+        <option value="diario">Diario</option>
+        <option value="semanal">Semanal</option>
+      </select>
+
+      <button type="submit">Agregar hábito</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 Tu Salud App</p>
+  </footer>
+</body>
+</html>
